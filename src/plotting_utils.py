@@ -46,7 +46,7 @@ def plot_event_asd(hdata, ldata, preprocess_params=None, titlestr=None):
     ax = plot.gca()
     ax.plot(hdata_asd, label='LIGO-Hanford', color='gwpy:ligo-hanford')
     ax.plot(ldata_asd, label='LIGO-Livingston', color='gwpy:ligo-livingston')
-    ax.set_xlim(10, 2000)
+    # ax.set_xlim(10, 2000)
     # ax.set_ylim(1e-25, 1e-18)
     ax.set_xscale('log')
     ax.set_yscale('log')
