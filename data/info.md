@@ -1,0 +1,1 @@
+Just a folder to store the metadata needed for data acquisition and processing.
